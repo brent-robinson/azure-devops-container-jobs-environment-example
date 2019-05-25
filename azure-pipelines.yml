@@ -12,7 +12,7 @@ steps:
   inputs:
     dockerfile: Dockerfile
     command: buildAndPush
-    containerRegistry: 'Azure Container Registry'
+    containerRegistry: 'MyACR'
     repository: my-project-pipeline-environment
     tags: |
       $(Build.BuildNumber)
